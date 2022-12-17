@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Beranda from './components/Beranda'
-import Destinasi from './components/Destinasi'
-import Informasi from './components/Informasi'
-import Lainnya from './components/Lainnya'
+import Beranda from './screen/Beranda'
+import Destinasi from './screen/Destinasi'
+import Informasi from './screen/Informasi'
+import Lainnya from './screen/Lainnya'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
