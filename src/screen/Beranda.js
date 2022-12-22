@@ -32,7 +32,7 @@ const Beranda = () => {
               <Ionicons name='heart-circle-outline' size={30} color='#0085CC'/>
             </TouchableOpacity>
           </View>
-          <View style={{backgroundColor: 'gray', height: 360}}>
+          <View style={{backgroundColor: 'gray', height: 260}}>
             <View style={{flex: 1, justifyContent: 'flex-end', padding: '5%'}}>
               <Text style={{color: 'white'}}>Wisata Air</Text>
               <Text style={{color: 'white', fontSize: 32}}>Pulau Bukulimau UnderWater</Text>
@@ -161,13 +161,13 @@ const styles = StyleSheet.create({
     padding: '5%'
   },
   boxItem: {
-    width: 155, 
+    width: 175, 
     height: 175, 
     backgroundColor: 'gray', 
     borderRadius: 25,
     padding: '5%',
     justifyContent: 'flex-end',
-    marginVertical: '5%',
+    marginVertical: '2%',
   },
   boxCategory: {
     width: 60,
