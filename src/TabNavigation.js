@@ -21,9 +21,9 @@ export default function TabNavigation() {
                 ? 'home'
                 : 'home-outline';
             } else if (route.name === 'Destinasi') {
-                iconName = focused ? 'navigate-outline' : 'navigate-circle-outline';
+                iconName = focused ? 'map-outline' : 'map-outline';
             } else if (route.name === 'Informasi') {
-                iconName = focused ? 'information-outline' : 'information-circle-outline';
+                iconName = focused ? 'newspaper-outline' : 'newspaper-outline';
             } else if (route.name === 'Lainnya') {
                 iconName = focused ? 'ios-list' : 'ios-list-outline';
             }
