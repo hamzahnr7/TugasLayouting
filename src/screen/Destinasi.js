@@ -40,6 +40,34 @@ export default function Destinasi() {
             </ScrollView>
           </SafeAreaView>
         </View>
+        <View style={{flex: 1}}>
+          <View style={styles.boxContainer}>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Pantai Serdang</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Vihara Patung Dewi Kwan Im</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Replika SD Laskar Pelangi</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Pantai Nyiur Melambai</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Pantai Serdang</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Vihara Patung Dewi Kwan Im</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Replika SD Laskar Pelangi</Text>
+            </View>
+            <View style={styles.boxItem}>
+              <Text style={{color: 'white'}}>Pantai Nyiur Melambai</Text>
+            </View>
+          </View>
+        </View>
       </ScrollView>
     </SafeAreaView>
   )
@@ -52,5 +80,21 @@ const styles = StyleSheet.create({
     padding: '5%', 
     borderBottomWidth: 2,
     borderBottomColor: '#E0E0E0'
+  },
+  boxContainer: {
+    flexDirection: 'row', 
+    width: '100%', 
+    flexWrap: 'wrap', 
+    justifyContent: 'space-between',
+    padding: '5%'
+  },
+  boxItem: {
+    width: 175, 
+    height: 175, 
+    backgroundColor: 'gray', 
+    borderRadius: 25,
+    padding: '5%',
+    justifyContent: 'flex-end',
+    marginVertical: '2%',
   },
 })

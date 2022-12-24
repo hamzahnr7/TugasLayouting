@@ -87,7 +87,9 @@ const Beranda = () => {
         <View style={{flex: 1}}>
           <View style={{backgroundColor: 'gray', marginHorizontal: '5%', paddingVertical: '10%', paddingHorizontal: '10%', borderRadius: 20}}>
             <Text style={[styles.h2, styles.textWhite, {marginBottom: 15}]}>Jagalah Kesehatan dan Keselamatan dari Virus Covid-19</Text>
-            <Text style={styles.textWhite}>Selengkapnya {'>'}</Text>
+            <TouchableOpacity>
+              <Text style={styles.textWhite}>Selengkapnya {'>'}</Text>
+            </TouchableOpacity>
           </View>
         </View>
         <View style={{flex: 1}}>
